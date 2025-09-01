@@ -1,0 +1,14 @@
+name: E2E tests before release
+
+on:
+  workflow_dispatch:
+
+jobs:
+    e2e-tests:
+      name: Run E2E tests
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: Checkout repository
+          run: |
+            echo "Success!"
