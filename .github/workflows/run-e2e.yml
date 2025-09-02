@@ -2,6 +2,7 @@ name: E2E tests before release
 
 on:
   workflow_dispatch:
+  workflow_call:
 
 jobs:
     e2e-tests:
