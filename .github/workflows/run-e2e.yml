@@ -10,7 +10,10 @@ jobs:
       runs-on: ubuntu-latest
 
       steps:
-        - name: Checkout repository
+        - name: Checkout
+          uses: actions/checkout@v5.0.0
+        
+        - name: Do work
           run: |
             echo "Success!"
 
