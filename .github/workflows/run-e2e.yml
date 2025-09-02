@@ -13,3 +13,7 @@ jobs:
         - name: Checkout repository
           run: |
             echo "Success!"
+
+        - name: Log context
+          run: |
+            ls -la
